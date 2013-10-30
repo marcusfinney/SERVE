@@ -102,9 +102,8 @@
                                 <span>Sign-In</span>
                                 <div class="line r"></div>
                             </div>
-
                             <div class="form">
-                                <form method="post" action="blog-home.php">
+                                <form method="post" action="checklogin.php">
                                     <div>
                                     <input type="text" placeholder="Username" id="username" name="username">
                                     <input type="password" placeholder="Password" id="password" name="password">
@@ -151,9 +150,9 @@
 	    <?php
 	    if (isset($_GET))
             {
-                if (isset($_GET["status"]) and $_GET["status"] == "forgotpassword")
+                if (isset($_GET["error"]) and $_GET["error"] == "unauthorized")
                 {
-                    echo '<script>alert("Please contact your doctor or call (734)358-9617 for assistance.")</script>';
+                    echo '<script>alert("You are not currently logged in. Please log in or create an account...")</script>';
                 }
             }
         ?>

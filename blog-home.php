@@ -1,3 +1,13 @@
+<?php 
+session_start();
+ob_start(); 
+
+if (!isset($_SESSION['username']))
+{
+    header("Location: index.php?error=unauthorized");
+    die();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -64,7 +74,6 @@
 						<h1 class=""><a class="brand" href="#"><h2>SERVE.</h2></a></h1>
 						<div class="nav-collapse collapse">
 							<ul class="nav pull-right">
-								<!--<li><a class="scroll-link" href="index.html#row2"><h3>Sign Out</h3></a></li>-->
 							</ul>
 						</div>
 					</div>
@@ -288,7 +297,7 @@
 	                            <a href="#" title="title">Edit Information</a></li>
 	                        <li>
 	                            <i class="icon-caret-right"></i>
-	                            <a href="index.php" title="title">Sign Out</a></li>
+	                            <a href="logout.php" title="title">Sign Out</a></li>
 	                    </ul>
 		            </div>
 		            <!-- .widget -->

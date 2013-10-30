@@ -1096,9 +1096,9 @@ margin-right:auto;
     margin-right: 5px;
 }
 #sign_in2 .signin_box .box .form .forgot a{
-    color: #e97770;
+    color: #0000FF;
     font-size: 13px;
-    border-bottom: 1px solid #e97770;
+    border-bottom: 1px solid #0000FF;
     font-weight: bold;
     -webkit-transition: color .2s;
     -moz-transition: color .2s;
@@ -1119,27 +1119,13 @@ margin-right:auto;
     padding: 6px 19px;
     border: 0 none;
     border-radius: 3px;
-    -webkit-transition: background linear .2s, box-shadow linear .2s;
-    -moz-transition: background linear .2s, box-shadow linear .2s;
-    -o-transition: background linear .2s, box-shadow linear .2s;
-    transition: background linear .2s, box-shadow linear .2s;
-}
-input[type="submit"]{
-    text-transform: uppercase;
-    color: #000;
-    background: #fff;
-    font-size: 15px;
-    margin: 0 auto;
-    display: inline-block;
-    padding: 6px 19px;
-    border: 0 none;
-    border-radius: 3px;
     position: center;
     -webkit-transition: background linear .2s, box-shadow linear .2s;
     -moz-transition: background linear .2s, box-shadow linear .2s;
     -o-transition: background linear .2s, box-shadow linear .2s;
     transition: background linear .2s, box-shadow linear .2s;
 }
+
 input[type="submit"]:hover{
     background: #000;
 }

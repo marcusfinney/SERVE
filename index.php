@@ -116,11 +116,12 @@
                         			?>
                         			</div>                                  
                                     <div class="forgot">
-                                        <span>Trouble remembering?</span>
-                                        <font color="blue"><!--<a href="sign-up.html">--><u><i>Forgot Password?</i></u></a></font>
+                                        <span>Having Issues?</span>
+                                        <font color="blue"><a href="sign-up.html"><i>Forgot Password?</i></a></font><br>
+                                        <font color="blue"><a href="sign-up.html"><i>Sign Up for SERVE.</i></a></font>
                                     </div>
-                                    <input type="submit" name="sign in" value="Login">
-                                </form>
+                                    	<input class="span4" type="submit" name="sign in" value="Login">
+                                </form><br>
                             </div>
 
                         </div>
@@ -130,8 +131,6 @@
         </div>
     </div>  
 
-		
-		         
 	    <!-- Javascript  -->
 	    <script type="text/javascript" src="js/jquery.js"></script>
 	    <script type="text/javascript" src="js/bootstrap.min.js"></script>

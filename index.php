@@ -69,21 +69,6 @@
 						<h1 class=""><a class="brand" href="#"><h2>SERVE.</h2></a></h1>
 						<div class="nav-collapse collapse">
 							<ul class="nav pull-right">
-								<!--<li><a class="scroll-link" href="#row1">Sign-In</a></li>
-								<li><a class="scroll-link" href="#row2">About</a></li>
-								<li><a class="scroll-link" href="#row3">Team</a></li>
-								<li><a class="scroll-link" href="#row4">Service</a></li>
-								<li><a class="scroll-link" href="#row5">Portfolio</a></li>
-								<li><a href="shortcodes.html">Shortcodes</a></li>
-								<li><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog <i class="icon-caret-down"></i></a>
-									<ul class="dropdown-menu">
-									    <li><a class="scroll-link" href="blog-layout-1.html" title="Blog Layout 1">Blog Layout 1</a></li>
-									    <li><a class="scroll-link" href="blog-layout-2.html" title="Blog Layout 2">Blog Layout 2</a></li>
-									    <li><a class="scroll-link" href="blog-layout-3.html" title="Blog Layout 3">Blog Layout 3</a></li>
-									    <li><a class="scroll-link" href="single-post.html" title="Single Blog Post">Single Blog Post</a></li>
-									</ul>
-								</li>
-								<li><a class="scroll-link" href="#row6">Contact</a></li>-->
 							</ul>
 						</div>
 					</div>
@@ -100,96 +85,16 @@
             <div class="section_header">
                 <!--<h3>Sign in</h3>-->
             </div>
-            <!--
-            <div class="row login">
-                <div class="span5 left_box">
-                    <h4><i>What's Association?</i></h4>
-
-                    <div class="span6 signin_box">
-                        <div class="box">
-                       	<div class="box_cont">
-                            <span class="icos icon-user-md icon-2x"></span>
-                            <p><strong>Doctor:</strong> set bounds for healthy vital entries, view vitals, leave notes for nurses and patients, message a patient, and more...</p>
-                        </div>
-                        <div class="perk">
-                            <span class="icos icon-plus-sign-alt icon-2x"></span>
-                            <p><strong>Nurse:</strong> update patient vitals and check-up on Doctor's notes for their selected patient.</p>
-                        </div>
-                        <div class="perk">
-                            <span class="icos icon-user icon-2x"></span>
-                            <p><strong>Patient:</strong> track and update their vitals, communicate with doctors and receive live notifications.</p>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="span6 signin_box">
-                    <div class="box">
-                        <div class="box_cont">
-                            <div class="form">
-                                <form method="post" action="datadoc.checklogin.php">
-                                    <div>
-                                    <input type="text" placeholder="Username" id="username" name="username">
-                                    <input type="text" placeholder="Password" id="password" name="password">
-                        			<div>
-                        			<select id="association" name="association">
-                           			 	<option value="Doctors">Doctor</option>
-                           			 	<option value="Nurses">Nurse</option>
-                            			<option value="Patients">Patient</option>
-                            			<option value="Admins">Admin</option>
-                        			</select>  
-                        			</div>                                  
-                                    <div class="forgot">
-                                        <span>Don’t have an account?</span>
-                                        <a href="sign-up.html">Sign up</a>
-                                    </div>
-                                    <input type="submit" value="sign in">
-                                </form>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-            -->
      <div id="sign_in2">
         <div class="container">
             <div class="section_header">
                 <!--<h3>Sign in</h3>-->
             </div>
             <div class="row login">
-                <!--<div class="span5 left_box">
-                    <br><h4><i>What's Association?</i></h4>
-
-                    <div class="perk_box">
-                        <div class="perk">
-                            <span class="icos icon-user-md icon-2x"></span>
-                            <p>If you are a <b><i>Doctor</i></b>, login under the association Doctor. Doctors can set bounds healthy vital entries, view vitals, leave notes, message a patient, and more...</p>
-                        </div>
-                        <div class="perk">
-                            <span class="icos icon-plus-sign-alt icon-2x"></span>
-                            <p>Are you a <b><i>Nurse</i></b>? If so, login under the association Nurse. Nurses can update patient vitals and check-up on Doctor's notes for their selected patient.</p>
-                        </div>
-                        <div class="perk">
-                            <span class="icos icon-user icon-2x"></span>
-                            <p>Happen to be a <b><i>Patient</i></b>? Set your association to Patient and login to track and update their vitals, communicate with doctors and receive live notifications.</p>
-                        </div>
-                    </div>
-                </div>-->
-
                 <div class="span12 signin_box">
                     <div class="box">
                         <div class="box_cont">
-                            <div class="social">    
-                                <!--<a href="#" class="circle2 facebook">
-                                    <img src="images/desktop.png" alt="">
-                                </a>
-                                 <a href="#" class="circle twitter">
-                                    <img src="images/desktop2.png" alt="">
-                                </a>
-                                 <a href="#" class="circle gplus">
-                                    <img src="images/desktop3.png" alt="">
-                                </a>  -->                                                         
+                            <div class="social">                                                          
                             </div>
 								<h3>Welcome to <font color="black"><i> SERVE.</i></font></h3>
                             <div class="division">
@@ -204,12 +109,6 @@
                                     <input type="text" placeholder="Username" id="username" name="username">
                                     <input type="password" placeholder="Password" id="password" name="password">
                         			<div>
-                        			<!--
-                        			<select id="association" name="association">
-                           			 	<option value="Doctors">Doctor</option>
-                           			 	<option value="Nurses">Nurse</option>
-                            			<option value="Patients">Patient</option>
-                        			</select>  --!>
                         			<?php
                            			 if ($_GET and $_GET["error"] == "incorrectlogin") 
                            			 	{

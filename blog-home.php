@@ -90,13 +90,14 @@
 		                                <i class="icon-comment"></i> 4 Comments
 		                            </a>
 		                        </div>
-		                        <h2 class="post-title">New Native Shrubs Show Promise for Landscape, Nursery Industries</h2>
+		                        <!--<h2 class="post-title">New Native Shrubs Show Promise for Landscape, Nursery Industries</h2>
 		                        <div class="author">
 		                            <p class="serif italic">posted by:
 		                                <a>Ronald Row</a>
 		                                in 
 		                                <a>Biology</a></p>
 		                        </div>
+		                        -->
 		                        <p>Scientists studied softwood stem cutting propagation of four underused shrub species native to the northeastern United States. 
 		                        The results indicated that two of these could be propagated for ...
 		                        </p>

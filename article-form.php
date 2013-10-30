@@ -91,86 +91,34 @@
 		                                <a>John Doe</a>
 		                                in 
 		                                <a>Politics</a></p>
+		                         <NYT_TEXT>
+<div id="articleBody">
+ 
+    <p>The story of <a href="http://topics.nytimes.com/top/reference/timestopics/people/t/pat_tillman/index.html?inline=nyt-per" title="More articles about Pat Tillman.">Pat Tillman</a>, the professional football player killed in Afghanistan in 2004, was simultaneously appalling and inspiring &#8212; which helped explain, perhaps, the mesmerizing grip it had on the United States. It showed America at its best and worst, at a time when the country was engaged in a deeply polarizing war. At the least, it had all the ingredients of a very good book. </p>
+<p>Most everyone, at least in the United States, is familiar with the basic facts: Tillman, a free-thinking, hard-hitting safety for the <a href="http://topics.nytimes.com/top/news/sports/profootball/nationalfootballleague/arizonacardinals/index.html?inline=nyt-org" title="Recent news and scores about the Arizona Cardinals.">Arizona Cardinals</a>, walked away from a multimillion-dollar contract after 9/11 to enlist in the <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/a/us_army/index.html?inline=nyt-org" title="More articles about the U.S. Army.">Army</a>. He joined an elite unit, the Rangers, and was killed on April 22, 2004, in a canyon in eastern Afghanistan. The story did not end there: Tillman&#8217;s commanders and possibly officials in the Bush administration suppressed that he had been killed accidentally by his own comrades. They publicly lionized Tillman as a hero who died fighting the enemy and fed the phony account even to Tillman&#8217;s grieving family. The sordid truth, or most of it, came out later.</p>
+<p>The best-selling author <a href="http://topics.nytimes.com/top/reference/timestopics/people/k/jon_krakauer/index.html?inline=nyt-per" title="More articles about Jon Krakauer.">Jon Krakauer</a> has now told the full story in &#8220;Where Men Win Glory.&#8221; The combination of Krakauer and Tillman seems hard to resist: Krakauer is a masterly writer and reporter; &#8220;Into Thin Air,&#8221; his account of a disastrous climbing expedition on Mount Everest, is as riveting and harrowing a book as I&#8217;ve ever read. With Tillman, you would think he&#8217;d have all he needed to fashion an epic narrative. Unfortunately, he fails to pull it off. </p>
+<p>The biggest problem with &#8220;Where Men Win Glory&#8221; is that nearly all the drama and import &#8212; Tillman&#8217;s death and the cover-up &#8212; are saved for the last hundred pages. The first two-thirds covers Tillman&#8217;s early life, his ascent into the <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/n/national_football_league/index.html?inline=nyt-org" title="More articles about the National Football League.">National Football League</a> and his decision to quit and enlist. Tillman doesn&#8217;t arrive in Afghanistan until Page 230. </p>
+<p>It&#8217;s not that his life was dull &#8212; he emerges as a man of exceptional character, who lived according to a set of principles he had developed from deep thinking and reading. Still, that life, as described here, is not large enough to carry the reader to the momentous events that we already know are on the way.  </p>
+<p>Krakauer skillfully sketches Tillman&#8217;s singular personality, laying the groundwork to present his remarkable decision to take the Army over the N.F.L. Tillman was very much his own man: he wore his hair to his shoulders, rode his bicycle to training camp each morning and &#8220;never went anywhere without a book.&#8221; </p>
+<p>But after the 9/11 attacks, Tillman found his professional life suddenly hollow. &#8220;Sports embodied many of the qualities I deem meaningful,&#8221; he wrote in May 2002. &#8220;However, these last few years, and especially after recent events, I&#8217;ve come to appreciate just how shallow and insignificant my role is. . . . It&#8217;s no longer important.&#8221; </p>
+<p>So Tillman said goodbye to the N.F.L., to stardom and to the three-year, $3.6 million contract the Cardinals had offered him to stay. In deciding to enlist, he moved hard against the grain of contemporary wartime America, which demands extraordinary sacrifice from a few while asking almost nothing of everyone else. </p>
+<p>Unfortunately, too many of the details of Tillman&#8217;s life recounted here are mostly banal and inconsequential. Do we really need to be told, at extended length, how Tillman &#8212; or &#8220;Pat,&#8221; as Krakauer cloyingly refers to him &#8212; jumped off a granite ledge in Sedona, Ariz.? How he got drunk and threw up with his pals in Paris? How he beat up a guy at the pizza parlor in high school? It feels like padding, and so do Krakauer&#8217;s long digressions about Afghanistan and Iraq and the Bush administration, most of which are only tangentially related to his subject&#8217;s life (and some of which are inaccurate: <a href="http://topics.nytimes.com/top/reference/timestopics/people/k/hamid_karzai/index.html?inline=nyt-per" title="More articles about Hamid Karzai.">Hamid Karzai</a>, the president of Afghanistan, was not a major mujahedeen commander during the war against the Soviets; <a href="http://topics.nytimes.com/top/reference/timestopics/people/k/ismail_khan/index.html?inline=nyt-per" title="More articles about Ismail Khan.">Ismail Khan</a> is not a leader of the Hazaras). This would have been a better book had it been a hundred pages shorter. </p>
+<p>Once Tillman lands in Afghanistan, though, Krakauer&#8217;s narrative lifts off. The death of Tillman is handled deftly &#8212; and sad it is, the end of a series of errors and misjudgments, some of which border on the criminal. During a mission to search villages, one of the Humvees in Tillman&#8217;s platoon broke down. An officer back at headquarters ordered the platoon to split up: half to tow the Humvee to the base, the other to search the villages. The platoon leader objected &#8212; splitting his platoon in a hostile area rendered his men vulnerable &#8212; but he was ordered to proceed. </p>
+<p>From there, the disaster unfolded. The units went off in different directions, but then, the one towing the Humvee thought it had found an easier route and doubled back, only to come under attack from <a href="http://topics.nytimes.com/top/reference/timestopics/organizations/t/taliban/index.html?inline=nyt-org" title="More articles about the Taliban.">Taliban</a> insurgents. Tillman and others from the first unit raced to the rescue &#8212; and were fired on by their fellow soldiers in the second unit, who mistook them for the enemy. Tillman was shot three times in the head by a machine-gunner; an Afghan government soldier was also killed, and two other Americans were wounded. Tillman&#8217;s brother Kevin &#8212; the brothers enlisted together &#8212; was in the unit that killed Pat, but his weapon, a grenade launcher, had jammed. He never got off a shot. </p>
+<p>While most of the facts have been re&#173;ported before, Krakauer performs a valuable service by bringing them all together &#8212; particularly those about the cover-up. The details, even five years later, are nauseating to read: After Tillman&#8217;s death, Army commanders, aided and abetted by members of the Bush administration, violated many of their own rules, not to mention elementary standards of decency, to turn the killing into a propaganda coup for the American side. Tillman&#8217;s clothing and notebooks were burned &#8212; a flouting of Army regulations &#8212; and he was fast-tracked for a posthumous Silver Star, which, as Krakauer shows, was a fraud. Members of his unit were ordered to stay silent about the manner of his death. Even part of Tillman&#8217;s body disappeared. Most important, Army commanders went to great lengths to keep the facts of Tillman&#8217;s death a secret and allowed the story that he died at the hands of the Taliban to flourish. The low point came at his memorial service, where he was lionized before television cameras, while officials who knew the truth stayed quiet. </p>
+<p>Krakauer doesn&#8217;t nail down precisely who gave the initial order to conceal the manner of Tillman&#8217;s death, but he demonstrates conclusively that the White House was happy to peddle the story that he&#8217;d been killed by enemy fire. It makes sense: at the time of Tillman&#8217;s death, the Abu Ghraib scandal in Iraq was dominating the news. In any case, the slipshod way the Army investigated Tillman&#8217;s death is part of Krakauer&#8217;s story. </p>
+<p>Oddly enough, Tillman himself suspected that, if he were killed, the Army might try to turn him into a poster boy. And he wanted nothing to do with it. As Tillman told an Army friend: &#8220;I don&#8217;t want them to parade me through the streets.&#8221; </p>
+<p>If only he&#8217;d gotten his wish. </p>
+
+
+<NYT_AUTHOR_ID><div id="authorId"><p>Dexter Filkins, a foreign correspondent for The Times, is the author of “The Forever War.”</p></div></NYT_AUTHOR_ID>
+
+
+<NYT_UPDATE_BOTTOM>
+</NYT_UPDATE_BOTTOM>
+</div>
+</NYT_TEXT>
 		                        </div>
-		                        <p><strong>A quantum computer is any device for computation that makes direct use of distinctively 
-		                        quantum mechanical phenomena, such as superposition and entanglement, 
-		                        to perform operations on data.</strong>
-		                            In a classical (or conventional) computer, information is stored as bits; in a quantum computer, it is stored as qubits (quantum bits).
-The basic principle of quantum computation is that the quantum properties can be used to represent and structure data, and that quantum mechanisms can be devised and built to perform operations with this data. Although quantum computing is still in its infancy, experiments have been carried out in which quantum computational operations were executed on a very small number of qubits.
-Research in both theoretical and practical areas continues at a frantic pace, and many national government and military funding agencies support quantum computing research to develop quantum computers for both civilian and national security purposes, such as cryptanalysis. If large-scale quantum computers can be built, they will be able to solve certain problems exponentially faster than any of our current classical computers (for example Shor's algorithm).
-<p>Quantum computers are different from other computers such as DNA computers and traditional computers based on transistors.
-Some computing architectures such as optical computers may use classical superposition of electromagnetic waves, but without some specifically quantum mechanical resources such as entanglement, they have less potential for computational speed-up than quantum computers. The power of quantum computers Integer factorization is believed to be computationally infeasible with an ordinary computer for large integers that are the product of only a few prime numbers (e.g., products of two 300-digit primes).
-By comparison, a quantum computer could solve this problem more efficiently than a classical computer using Shor's algorithm to find its factors.
-</p><p>This ability would allow a quantum computer to "break" many of the cryptographic systems in use today, in the sense that there would be a polynomial time (in the number of bits of the integer) algorithm for solving the problem.
-In particular, most of the popular public key ciphers are based on the difficulty of factoring integers, including forms of RSA.
-These are used to protect secure Web pages, encrypted email, and many other types of data.
-Breaking these would have significant ramifications for electronic privacy and security.
-The only way to increase the security of an algorithm like RSA would be to increase the key size and hope that an adversary does not have the resources to build and use a powerful enough quantum computer.
-It seems plausible that it will always be possible to build classical computers that have more bits than the number of qubits in the largest quantum computer.</p></p>
-		                        <!--<h2>Heading 2. Praesent dapibus, neque id cursus faucibus, tortor neque
-		                            egestas augue.</h2>
-		                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-		                            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-		                            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-		                            egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-		                            leo.</p>
-		                        <blockquote>
-		                            <p>Blockquote. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		                                Integer posuere erat a ante.</p>
-		                            <small>Someone famous
-		                                <cite title="Source Title">Source Title</cite></small>
-		                        </blockquote>
-		                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-		                            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-		                            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-		                            egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-		                            leo.</p>
-		                        <h3>Heading 3. Praesent dapibus, neque id cursus faucibus, tortor neque
-		                            egestas augue.</h3>
-		                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-		                            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-		                            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-		                            egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-		                            leo.</p>
-		                        <ul>
-		                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-		                            <li>Aliquam tincidunt mauris eu risus.
-		                                <ul>
-		                                    <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-		                                    <li>Aliquam tincidunt mauris eu risus.</li>
-		                                    <li>Vestibulum auctor dapibus neque.</li>
-		                                </ul>
-		                            </li>
-		                            <li>Vestibulum auctor dapibus neque.</li>
-		                        </ul>
-		                        <h4>Heading 4. Praesent dapibus, neque id cursus faucibus, tortor neque
-		                            egestas augue.</h4>
-		                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-		                            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-		                            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-		                            egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-		                            leo.</p>
-		                        <ol>
-		                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-		                            <li>Aliquam tincidunt mauris eu risus.</li>
-		                            <li>Vestibulum auctor dapibus neque.</li>
-		                        </ol>
-		                        <h5>Heading 5. Praesent dapibus, neque id cursus faucibus, tortor neque
-		                            egestas augue.</h5>
-		                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada
-		                            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
-		                            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-		                            egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend
-		                            leo.</p>
-		                        <h6>Heading 6. Praesent dapibus, neque id cursus faucibus, tortor neque
-		                            egestas augue.</h6>
-		                        <p>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat
-		                            wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean
-		                            fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci,
-		                            sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar
-		                            facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor
-		                            neque egestas augue, eu vulputate magna eros eu erat.
-		                        </p> -->
 		                    </div>
 		                </div>
 		                <!-- .post -->
@@ -452,7 +400,7 @@ It seems plausible that it will always be possible to build classical computers 
 		                        <i class="icon-briefcase icon-4x"></i>
 		                    </div>
 		                    <div class="span9">
-		                        <p>Update your strengths in you profile to show others what your good at, and how to help you with as much detail as possible...</p>
+		                        <p>Update your strengths in your profile to show others what your good at, and how to help you with as much detail as possible...</p>
 		                        <a href="#" title="Continue">Continue &raquo;</a>
 		                    </div>
 		                </div>

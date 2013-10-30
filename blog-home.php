@@ -89,7 +89,7 @@ if (!isset($_SESSION['username']))
 		                <div class="post wrapper row-fluid">
 		                    <a class="overlay span4" href="#">
 		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="bio1.jpeg">
+		                        <img alt="image" class="media-object" src="bio1.jpg">
 		                    </a>
 		                    <div class="span8 post-content">
 		                        <div class="clearfix meta mar-t30 mar-t30">
@@ -99,45 +99,45 @@ if (!isset($_SESSION['username']))
 		                                <i class="icon-comment"></i> 4 Comments
 		                            </a>
 		                        </div>
-		                        <!--<h2 class="post-title">New Native Shrubs Show Promise for Landscape, Nursery Industries</h2>
+		                        <!--<h2 class="post-title">New Native Shrubs Show Promise for Landscape, Nursery Industries</h2>-->
+		                        <h2 class="post-title">BIO 181 Homework Question </h2>
 		                        <div class="author">
 		                            <p class="serif italic">posted by:
 		                                <a>Ronald Row</a>
 		                                in 
-		                                <a>Biology</a></p>
+		                                <a>BIO 181</a></p>
 		                        </div>
-		                        -->
-		                        <p>Scientists studied softwood stem cutting propagation of four underused shrub species native to the northeastern United States. 
-		                        The results indicated that two of these could be propagated for ...
+		                        
+		                        <p>How do I do problem 4.5.1 on the homework posted today by Professor Barnes?
 		                        </p>
 		                        <p class="read-more"><a class="btn btn-quivee" href="#">Continue Reading
 		                            &raquo;</a></p>
 		                    </div>
+		                    <p> tags: test, bio181, blah </p>
 		                </div>
 		                <!-- .post -->
 		                
 		                <div class="post wrapper row-fluid">
 		                    <a class="overlay span4" href="#">
 		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="cs1.jpg">
+		                        <img alt="image" class="media-object" src="cpt1.jpg">
 		                    </a>
 		                    <div class="span8 post-content">
 		                        <div class="clearfix meta mar-t30">
 		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2012</a></p>
+		                                <a>15 May 2013</a></p>
 		                            <a class="btn btn-quivee pull-right">
 		                                <i class="icon-comment"></i> 12 Comments
 		                            </a>
 		                        </div>
-		                        <h2 class="post-title">Quantum Computing</h2>
+		                        <h2 class="post-title">Corporal Pat Tillman</h2>
 		                        <div class="author">
 		                            <p class="serif italic">posted by:
 		                                <a>Karen Stein</a>
 		                                in 
-		                                <a>Computer Science</a></p>
+		                                <a>History</a></p>
 		                        </div>
-		                        <p>A quantum computer is any device for computation that makes direct use of distinctively quantum mechanical phenomena,
-		                         such as superposition and entanglement, to perform operations on data. In a ...
+		                        <p>The story of Pat Tillman, the professional football player killed in Afghanistan in 2004, was simultaneously appalling and inspiring — which helped explain, perhaps, the mesmerizing grip it had on the United States. It showed America ...
 		                        </p>
 		                        <p class="read-more"><a class="btn btn-quivee" href="article-form.php">Continue Reading
 		                            &raquo;</a></p>
@@ -145,7 +145,7 @@ if (!isset($_SESSION['username']))
 		                </div>
 		                <!-- .post -->
 		                
-		                <div class="post wrapper row-fluid">
+		                <!--<div class="post wrapper row-fluid">
 		                    <a class="overlay span4" href="#">
 		                        <span class="hover">View post</span>
 		                        <img alt="image" class="media-object" src="mat1.jpg">
@@ -172,6 +172,7 @@ if (!isset($_SESSION['username']))
 		                            &raquo;</a></p>
 		                    </div>
 		                </div>
+		                
 		                <!-- .post -->
 		                
 		                <div class="post wrapper row-fluid">
@@ -201,6 +202,7 @@ if (!isset($_SESSION['username']))
 		                            &raquo;</a></p>
 		                    </div>
 		                </div>
+		                
 		                <!-- .post -->
 		                <div class="post wrapper row-fluid">
 		                    <a class="overlay span4" href="#">
@@ -228,6 +230,7 @@ if (!isset($_SESSION['username']))
 		                            &raquo;</a></p>
 		                    </div>
 		                </div>
+		                -->
 		                <!-- .post -->
 		                
 		                <div class="post wrapper row-fluid">
@@ -243,7 +246,7 @@ if (!isset($_SESSION['username']))
 		                                <i class="icon-comment"></i> 1 Comments
 		                            </a>
 		                        </div>
-		                        <h2 class="post-title">Topological Light: Living On the Edge</h2>
+		                        <h2 class="post-title">Linear Algebra</h2>
 		                        <div class="author">
 		                            <p class="serif italic">posted by:
 		                                <a>Javhid Simons</a>

@@ -124,7 +124,6 @@
                                     	<input class="span4" type="submit" name="sign in" value="Login">
                                 </form><br>
                             </div>
-
                         </div>
                     </div>
                 </div>

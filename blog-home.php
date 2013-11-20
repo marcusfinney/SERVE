@@ -109,9 +109,13 @@ if (!isset($_SESSION['username']))
 		                        </div>
 		                        
 		                        <p>How do I do problem 4.5.1 on the homework posted today by Professor Barnes?
-		                        </p>
-		                        <p class="read-more"><a class="btn btn-quivee" href="#">Continue Reading
-		                            &raquo;</a></p>
+		                        </p><?php 
+		                        	$tag=0001;
+		                        	?>
+		                        	<form method="post" action="viewPost.php">
+		                        		<input type="hidden" id="tag" name="tag" placeholder="blah" value="<?php $tag ?>">
+                                    	<input class="btn btn-quivee span4" type="submit" name="sign in" value="Continue Reading &raquo;">
+		                        	</form>
 		                    </div>
 		                    <p> tags: test, bio181, blah </p>
 		                </div>
@@ -284,7 +288,6 @@ if (!isset($_SESSION['username']))
 										<li><a href="#" title=""><i class="icon-linkedin"></i></a></li>
 										<li><a href="#" title=""><i class="icon-google-plus-sign"></i></a></li>
 									</ul>
-									------------------------------------------------
 								</div>
 	                    <ul>
 	                        <li>
@@ -383,13 +386,13 @@ if (!isset($_SESSION['username']))
 		            </div>
 		            <!-- .widget -->
 		            <div class="widget widget-wrapper">
-		                <h3>Show Your Strengths!</h3>
+		                <h3>Make a New Topic</h3>
 		                <div class="row-fluid clearfix">
 		                    <div class="span3 pull-left icons hidden-phone">
-		                        <i class="icon-briefcase icon-4x"></i>
+		                        <i class="icon-list-alt icon-4x"></i>
 		                    </div>
 		                    <div class="span9">
-		                        <p>Update your strengths in you profile to show others what your good at, and how to help you with as much detail as possible...</p>
+		                        <p>Create a new topic for users to view!</p>
 		                        <a href="#" title="Continue">Continue &raquo;</a>
 		                    </div>
 		                </div>

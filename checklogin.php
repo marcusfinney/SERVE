@@ -13,6 +13,7 @@ $myusername = $_POST["username"];
 $mypassword = $_POST["password"];
 $usertable = "Student";//add in some type of checking system for mods
 
+echo $myusername;
 
 $sql = "SELECT * FROM {$usertable} WHERE username='{$myusername}' AND password='{$mypassword}'";
 $result = mysql_query($sql);
@@ -28,23 +29,12 @@ if ($count == 1) {
     if($usertable == 'Student')
     {header("location: blog-home.php");}
     /*elseif($usertable == 'Patients')
-    {
-        $sql = "SELECT *
-                FROM Patients
-                WHERE idpatient={$_SESSION["userrecord"]["idpatient"]}";
-        $result = mysql_query($sql);
-        $patient = mysql_fetch_assoc($result);
-
-        $_SESSION["patientrecord"] = $patient;
-
-        header("location: patient.php");
-    }*/
     else
-    {header("location: index.php");}
+    {header("location: index.php");}*/
 }
 else{
     // return user to login page and mark page with login error
-    header("location:index.php?error=incorrectlogin");
+   	header("location:index.php?error=incorrectlogin");
 }
 ?>
 

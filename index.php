@@ -102,11 +102,12 @@
                                 <span>Sign-In</span>
                                 <div class="line r"></div>
                             </div>
+                            <!-- SIGN IN FORUM -->
                             <div class="form">
                                 <form method="post" action="checklogin.php">
                                     <div>
-                                    <input type="text" placeholder="Username" id="username" name="username">
-                                    <input type="password" placeholder="Password" id="password" name="password">
+                                    <input type="text" placeholder="Username" id="username" name="username" required>
+                                    <input type="password" placeholder="Password" id="password" name="password" required>
                         			<div>
                         			<?php
                            			 if ($_GET and $_GET["error"] == "incorrectlogin") 

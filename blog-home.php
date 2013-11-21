@@ -53,6 +53,8 @@ if (!isset($_SESSION['username']))
         <link href="ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72">
         <link href="ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed">
         <link href="ico/favicon.png" rel="shortcut icon">
+		
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
@@ -85,198 +87,87 @@ if (!isset($_SESSION['username']))
 		<div class="container blog">
 		    <div class="row">
 		        <section class="span8">
-		            <div class="row">
-		                <div class="post wrapper row-fluid">
-		                    <a class="overlay span4" href="#">
-		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="bio1.jpg">
-		                    </a>
-		                    <div class="span8 post-content">
-		                        <div class="clearfix meta mar-t30 mar-t30">
-		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2012</a></p>
-		                            <a class="btn btn-quivee pull-right">
-		                                <i class="icon-comment"></i> 4 Comments
-		                            </a>
-		                        </div>
-		                        <!--<h2 class="post-title">New Native Shrubs Show Promise for Landscape, Nursery Industries</h2>-->
-		                        <h2 class="post-title">BIO 181 Homework Question </h2>
-		                        <div class="author">
-		                            <p class="serif italic">posted by:
-		                                <a>Ronald Row</a>
-		                                in 
-		                                <a>BIO 181</a></p>
-		                        </div>
-		                        
-		                        <p>How do I do problem 4.5.1 on the homework posted today by Professor Barnes?
-		                        </p><?php 
-		                        	$tag=0001;
-		                        	?>
-		                        	<form method="post" action="viewPost.php">
-		                        		<input type="hidden" id="tag" name="tag" placeholder="blah" value="<?php $tag ?>">
-                                    	<input class="btn btn-quivee span4" type="submit" name="sign in" value="Continue Reading &raquo;">
-		                        	</form>
-		                    </div>
-		                    <p> tags: test, bio181, blah </p>
-		                </div>
-		                <!-- .post -->
-		                
-		                <div class="post wrapper row-fluid">
-		                    <a class="overlay span4" href="#">
-		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="cpt1.jpg">
-		                    </a>
-		                    <div class="span8 post-content">
-		                        <div class="clearfix meta mar-t30">
-		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2013</a></p>
-		                            <a class="btn btn-quivee pull-right">
-		                                <i class="icon-comment"></i> 12 Comments
-		                            </a>
-		                        </div>
-		                        <h2 class="post-title">Corporal Pat Tillman</h2>
-		                        <div class="author">
-		                            <p class="serif italic">posted by:
-		                                <a>Karen Stein</a>
-		                                in 
-		                                <a>History</a></p>
-		                        </div>
-		                        <p>The story of Pat Tillman, the professional football player killed in Afghanistan in 2004, was simultaneously appalling and inspiring — which helped explain, perhaps, the mesmerizing grip it had on the United States. It showed America ...
-		                        </p>
-		                        <p class="read-more"><a class="btn btn-quivee" href="article-form.php">Continue Reading
-		                            &raquo;</a></p>
-		                    </div>
-		                </div>
-		                <!-- .post -->
-		                
-		                <!--<div class="post wrapper row-fluid">
-		                    <a class="overlay span4" href="#">
-		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="mat1.jpg">
-		                    </a>
-		                    <div class="span8 post-content">
-		                        <div class="clearfix meta mar-t30">
-		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2012</a></p>
-		                            <a class="btn btn-quivee pull-right">
-		                                <i class="icon-comment"></i> 2 Comments
-		                            </a>
-		                        </div>
-		                        <h2 class="post-title">Mobius Strip</h2>
-		                        <div class="author">
-		                            <p class="serif italic">posted by:
-		                                <a>Gerald Fitz</a>
-		                                in 
-		                                <a>Mathematics</a></p>
-		                        </div>
-		                        <p>The Möbius strip or Möbius band is a surface with only one side and only one boundary component. 
-		                        It has the mathematical property of being non-orientable. It is also a ruled surface. It was ...
-		                        </p>
-		                        <p class="read-more"><a class="btn btn-quivee" href="#">Continue Reading
-		                            &raquo;</a></p>
-		                    </div>
-		                </div>
-		                
-		                <!-- .post -->
-		                
-		                <div class="post wrapper row-fluid">
-		                    <a class="overlay span4" href="#">
-		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="hist1.jpg">
-		                    </a>
-		                    <div class="span8 post-content">
-		                        <div class="clearfix meta mar-t30">
-		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2012</a></p>
-		                            <a class="btn btn-quivee pull-right">
-		                                <i class="icon-comment"></i> 4 Comments
-		                            </a>
-		                        </div>
-		                        <h2 class="post-title">The True Value of Columbus's Voyages</h2>
-		                        <div class="author">
-		                            <p class="serif italic">posted by:
-		                                <a>Thomas Kean</a>
-		                                in 
-		                                <a>History</a></p>
-		                        </div>
-		                        <p>Columbus may have left a contentious legacy, but there's no denying his voyages expanded the 
-		                        boundaries of European knowledge. 
-		                        </p>
-		                        <p class="read-more"><a class="btn btn-quivee" href="#">Continue Reading
-		                            &raquo;</a></p>
-		                    </div>
-		                </div>
-		                
-		                <!-- .post -->
-		                <div class="post wrapper row-fluid">
-		                    <a class="overlay span4" href="#">
-		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="lit1.jpg">
-		                    </a>
-		                    <div class="span8 post-content">
-		                        <div class="clearfix meta mar-t30">
-		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2012</a></p>
-		                            <a class="btn btn-quivee pull-right">
-		                                <i class="icon-comment"></i> 7 Comments
-		                            </a>
-		                        </div>
-		                        <h2 class="post-title">Topping Shakespeare? Aspects of the Nobel Prize for Literature</h2>
-		                        <div class="author">
-		                            <p class="serif italic">posted by:
-		                                <a>Richard Brown</a>
-		                                in 
-		                                <a>Literature</a></p>
-		                        </div>
-		                        <p>It has been asked how it may be determined whether one kind of literature is more ideal than another...
-		                        </p>
-		                        <p class="read-more"><a class="btn btn-quivee" href="#">Continue Reading
-		                            &raquo;</a></p>
-		                    </div>
-		                </div>
-		                -->
-		                <!-- .post -->
-		                
-		                <div class="post wrapper row-fluid">
-		                    <a class="overlay span4" href="#">
-		                        <span class="hover">View post</span>
-		                        <img alt="image" class="media-object" src="phy1.jpg">
-		                    </a>
-		                    <div class="span8 post-content">
-		                        <div class="clearfix meta mar-t30">
-		                            <p class="serif italic pull-left">Date:
-		                                <a>15 May 2012</a></p>
-		                            <a class="btn btn-quivee pull-right">
-		                                <i class="icon-comment"></i> 1 Comments
-		                            </a>
-		                        </div>
-		                        <h2 class="post-title">Linear Algebra</h2>
-		                        <div class="author">
-		                            <p class="serif italic">posted by:
-		                                <a>Javhid Simons</a>
-		                                in 
-		                                <a>Physics</a></p>
-		                        </div>
-		                        <p>Scientists report the first observation of topological effects for light in two dimensions, 
-		                        analogous to the quantum Hall effect for electrons. To accomplish this, they built a structure ... 
-		                        </p>
-		                        <p class="read-more"><a class="btn btn-quivee" href="#">Continue Reading
-		                            &raquo;</a></p>
-		                    </div>
-		                </div>
-		                <!-- .post -->
-		                
-		                <!-- .post -->
-		            </div>
-		            <!-- .row -->
+		        <!-- This area creates the list of articles for the selected field type (eg. Biology) -->
+		        
+		        	<!-- =============Article Feed Query Call============= -->
+		        	<?php 
+		        	
+		        			include 'config.php';
+                            mysql_connect($host, $user, $password) or die("cant connect");
+                            mysql_select_db($database) or die(mysql_error());
+                            $sql = "SELECT * 
+                                    FROM Topic
+                                    ";
+                            $mytopics = mysql_query($sql)or die('Invalid query: ' .mysql_error());
+                            $numberoftopics = mysql_num_rows($mytopics); 
+		        	    		if ($numberoftopics == 0) 
+                            	{
+                               	 	echo 'No Topics';
+                            	}
+                            	else
+                            	{
+                            	//set up with arrays so database prints in reverse(most recent) 
+                            		$topiccount = 0;
+                            		while ($row = mysql_fetch_assoc($mytopics)) 
+                            		{
+                            			$artDate = $row['date'];
+                            			$artImage = $row['image'];
+                            			$artCommentCount = $row['commentNum'];
+                            			$artTitle = $row['title'];
+                            			$artAuthor = $row['author'];
+                            			$artSubject = $row['subject'];
+                            			$artSummary = $row['summary'];
+                            			$artTag = $row['tag'];
+		              				  	$artDisplay[$topiccount] = 
+		            						'<div class="row">
+		                						<div class="post wrapper row-fluid">
+													<a class="overlay span4" href="#">
+		                        						<span class="hover">View post</span>
+		                        							<img alt="image" class="media-object" src="'.$artImage.'">
+		                    						</a>
+		                    						<div class="span8 post-content">
+		                        						<div class="clearfix meta mar-t30 mar-t30">
+		     						                       <p class="serif italic pull-left">Date:
+		                            						    <a>'.$artDate.'</a></p>
+		       						                     <a class="btn btn-quivee pull-right">
+		                            						    <i class="icon-comment"></i> '.$artCommentCount.' Comments
+		    							                    </a>
+		            						            </div>
+		                 						       <h2 class="post-title">'.$artTitle.'</h2>
+		    						                    <div class="author">
+		   						                         <p class="serif italic">posted by:
+		                 						               <a>'.$artAuthor.'</a>
+		                     						           in 
+		                 						               <a>'.$artSubject.'</a></p>
+		                      							  </div>
+		                						        <p>'.$artSummary.'
+		            						            </p>
+		         						               	<form method="post" action="viewPost.php">
+		         						               		<input type="hidden" id="tag" name="tag" value="'.$artID.'">
+                 						                   	<input class="btn btn-quivee span4" type="submit" name="sign in" value="Continue Reading &raquo;">
+		        						                </form>
+		       								         </div>
+		                   						 <p> &nbsp;tags:&nbsp;'.$artTag.'</p>
+		              						  </div>';		                
+		             				   $topiccount++;
+		                			}
+		                		}
+		                		
+		                		//to make the articles print by most recent
+		                		$i=0;
+		                		$i = $topiccount;
+		                		while($i>0)
+		                		{
+		                			$i--;
+		                			echo $artDisplay[$i];
+		                		}
+		                ?>
+		                			
+		                		                
 		        </section>
 		        <!-- .span8 -->
 		        <aside class="span4 wrapper">
 		            <div class="widget widget-wrapper">
-		            <!--<a class="ilightbox-member-1" href="team-member-1.html" title="team member">
-										<span class="hover">View full profile</span>
-										<img src="images/team1.png" alt="image" />
-									</a>-->	
 								<div class="member-description">
 									<img alt="" class="media-object comment-avatar img-circle pull-right" src="me1.png"><br>
 									<h4 class="member-name">Marcus Finney</h4>
@@ -284,6 +175,7 @@ if (!isset($_SESSION['username']))
 									<p class="member-role">Fulton - Computer Science SE</p>
 									<p>I am currently a senior attending ASU studying Software Engineering. I'm a Michigan native, and my favorite movie is the Matrix.</p>
 									<ul class="unstyled inline">
+										<li><a href="#myModal" role="button" class="" data-toggle="modal" title=""><i class="icon-list-alt"></i></a></li>
 										<li><a href="#" title=""><i class="icon-twitter"></i></a></li>
 										<li><a href="#" title=""><i class="icon-linkedin"></i></a></li>
 										<li><a href="#" title=""><i class="icon-google-plus-sign"></i></a></li>
@@ -306,6 +198,44 @@ if (!isset($_SESSION['username']))
 	                            <i class="icon-caret-right"></i>
 	                            <a href="logout.php" title="title">Sign Out</a></li>
 	                    </ul>
+		            </div>
+		            
+		            
+
+		            
+					<!-- Modal -->
+					<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  						<form method="post" action="createTopic.php" style="height:510px;">
+  						<div class="modal-header" style="background-color: black;">
+ 						   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+ 							   <h3 id="myModalLabel"><font color="white">Add a New Topic!</font></h3>
+						</div>
+  						<div class="modal-body" style="text-align: center">
+ 							<input class="span5" type="text" placeholder="Title" name="title" required>
+ 							<input class="span5" type="text" value="<?php echo $_SESSION["userrecord"]["firstName"].' '.$_SESSION["userrecord"]["lastName"]; ?>" name="author" required>
+ 							<input class="span5" type="text" placeholder="Subject" name="subject" required>
+							<textarea class="span5" style="height:270px; text-align: top" type="text" placeholder="Write your post..." name="summary" required></textarea>
+						</div>
+  						<div class="modal-footer" style="background-color: black;">
+    						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    						<button type="submit" class="btn btn-inverse">Submit</button>
+  						</div>
+  						</form>
+					</div>
+					
+			        <!-- .widget -->
+		            <div class="widget widget-wrapper">
+		                <h3>Make a New Topic</h3>
+		                <div class="row-fluid clearfix">
+		                    <div class="span3 pull-left icons hidden-phone">
+		                        <i class="icon-list-alt icon-4x"></i>
+		                    </div>
+		                    <div class="span9">
+		                        <p>Create a new topic for users to view!</p>
+		                        <a  href="#myModal" role="button" class="" data-toggle="modal" title="">Continue &raquo;</a>
+		                    </div>
+		                </div>
+		        	<!-- .clearfix -->
 		            </div>
 		            <!-- .widget -->
 		            <div class="widget">
@@ -383,20 +313,6 @@ if (!isset($_SESSION['username']))
 		                        </div>
 		                    </div>
 		                </div>
-		            </div>
-		            <!-- .widget -->
-		            <div class="widget widget-wrapper">
-		                <h3>Make a New Topic</h3>
-		                <div class="row-fluid clearfix">
-		                    <div class="span3 pull-left icons hidden-phone">
-		                        <i class="icon-list-alt icon-4x"></i>
-		                    </div>
-		                    <div class="span9">
-		                        <p>Create a new topic for users to view!</p>
-		                        <a href="#" title="Continue">Continue &raquo;</a>
-		                    </div>
-		                </div>
-		                <!-- .clearfix -->
 		            </div>
 		            <!-- .widget -->
 		            <div class="widget widget-wrapper">

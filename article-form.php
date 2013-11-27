@@ -114,7 +114,7 @@
 <NYT_AUTHOR_ID><div id="authorId"><p>Dexter Filkins, a foreign correspondent for The Times, is the author of “The Forever War.”</p></div></NYT_AUTHOR_ID>
 
 
-<NYT_UPDATE_BOTTOM>
+<NYT_UPDATE_BOTTOM> black black
 </NYT_UPDATE_BOTTOM>
 </div>
 </NYT_TEXT>

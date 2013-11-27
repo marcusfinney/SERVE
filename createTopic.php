@@ -17,11 +17,12 @@ $mydate				= getdate(date("U"));
 $date 				= "$mydate[weekday], $mydate[month] $mydate[mday], $mydate[year]";
 $commentNum         = 0;//will be updated another way.
 $title              = $_POST["title"];
+$paragraph			= $_POST["paragraph"];
 $subject          	= $_POST["subject"];
-$summary    		= $_POST["summary"];
+$summary    		= substr($paragraph, 0, 247)."...";
 $tag				= "test";
 
-if (!$title or !$subject or !$summary or !$author)
+if (!$title or !$paragraph or !$summary or !$author)
 {
     header("location: blog-home.php?error=incompletetopic");
     die();
@@ -36,8 +37,8 @@ mysql_select_db($database) or die(mysql_error());
 
 echo 2;
 
-$sql = "INSERT INTO Topic (image, date, commentNum, title, author, subject, summary, tag)
-        VALUES ('$image', '$date', $commentNum, '$title', '$author', '$subject', '$summary', '$tag')";
+$sql = "INSERT INTO Topic (image, date, commentNum, title, author, paragraph, subject, summary, tag)
+        VALUES ('$image', '$date', $commentNum, '$title', '$author', '$paragraph', '$subject', '$summary', '$tag')";
 $newrecord = mysql_query($sql);
 
 if ($newrecord)

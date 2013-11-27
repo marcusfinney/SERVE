@@ -88,10 +88,8 @@ if (!isset($_SESSION['username']))
 		    <div class="row">
 		        <section class="span8">
 		        <!-- This area creates the list of articles for the selected field type (eg. Biology) -->
-		        
 		        	<!-- =============Article Feed Query Call============= -->
 		        	<?php 
-		        	
 		        			include 'config.php';
                             mysql_connect($host, $user, $password) or die("cant connect");
                             mysql_select_db($database) or die(mysql_error());
@@ -110,6 +108,7 @@ if (!isset($_SESSION['username']))
                             		$topiccount = 0;
                             		while ($row = mysql_fetch_assoc($mytopics)) 
                             		{
+                            			$artID = $row['topicID'];
                             			$artDate = $row['date'];
                             			$artImage = $row['image'];
                             			$artCommentCount = $row['commentNum'];
@@ -123,13 +122,13 @@ if (!isset($_SESSION['username']))
 		                						<div class="post wrapper row-fluid">
 													<a class="overlay span4" href="#">
 		                        						<span class="hover">View post</span>
-		                        							<img alt="image" class="media-object" src="'.$artImage.'">
+		                        						<img alt="image" class="media-object" src="'.$artImage.'">
 		                    						</a>
 		                    						<div class="span8 post-content">
 		                        						<div class="clearfix meta mar-t30 mar-t30">
 		     						                       <p class="serif italic pull-left">Date:
 		                            						    <a>'.$artDate.'</a></p>
-		       						                     <a class="btn btn-quivee pull-right">
+		       						                     	<a class="btn btn-quivee pull-right">
 		                            						    <i class="icon-comment"></i> '.$artCommentCount.' Comments
 		    							                    </a>
 		            						            </div>
@@ -142,13 +141,16 @@ if (!isset($_SESSION['username']))
 		                      							  </div>
 		                						        <p>'.$artSummary.'
 		            						            </p>
-		         						               	<form method="post" action="viewPost.php">
-		         						               		<input type="hidden" id="tag" name="tag" value="'.$artID.'">
+		         						               	<form method="get" action="viewPost.php">
+		         						               		<input type="hidden" id="topicID" name="topicID" value="'.$artID.'">
                  						                   	<input class="btn btn-quivee span4" type="submit" name="sign in" value="Continue Reading &raquo;">
 		        						                </form>
 		       								         </div>
-		                   						 <p> &nbsp;tags:&nbsp;'.$artTag.'</p>
-		              						  </div>';		                
+		                   						 <p>tags:&nbsp;'.$artTag.'</p>
+		                   						 </div>
+		                   						 <hr style="border-top:1px solid #ccc;"></hr>
+		              						  </div>
+		              						  ';		                
 		             				   $topiccount++;
 		                			}
 		                		}
@@ -161,9 +163,7 @@ if (!isset($_SESSION['username']))
 		                			$i--;
 		                			echo $artDisplay[$i];
 		                		}
-		                ?>
-		                			
-		                		                
+		                ?>		                		                
 		        </section>
 		        <!-- .span8 -->
 		        <aside class="span4 wrapper">
@@ -208,13 +208,13 @@ if (!isset($_SESSION['username']))
   						<form method="post" action="createTopic.php" style="height:510px;">
   						<div class="modal-header" style="background-color: black;">
  						   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
- 							   <h3 id="myModalLabel"><font color="white">Add a New Topic!</font></h3>
+ 							   <h3 id="myModalLabel"><font color="white">Make a New Topic</font></h3>
 						</div>
   						<div class="modal-body" style="text-align: center">
  							<input class="span5" type="text" placeholder="Title" name="title" required>
  							<input class="span5" type="text" value="<?php echo $_SESSION["userrecord"]["firstName"].' '.$_SESSION["userrecord"]["lastName"]; ?>" name="author" required>
  							<input class="span5" type="text" placeholder="Subject" name="subject" required>
-							<textarea class="span5" style="height:270px; text-align: top" type="text" placeholder="Write your post..." name="summary" required></textarea>
+							<textarea class="span5" style="height:270px; text-align: top" type="text" placeholder="Write your post..." name="paragraph" required></textarea>
 						</div>
   						<div class="modal-footer" style="background-color: black;">
     						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>

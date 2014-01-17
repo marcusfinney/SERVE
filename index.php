@@ -53,6 +53,8 @@
       	<script src="js/html5shiv.js"></script>
     	<![endif]-->
     	
+    	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+
     </head>
     <body class="page-red hidden-body">
 
@@ -99,7 +101,7 @@
 								<h3>Welcome to <font color="black"><i> SERVE.</i></font></h3>
                             <div class="division">
                                 <div class="line l"></div>
-                                <span>Sign-In</span>
+                                <span><i>Sign-In</i></span>
                                 <div class="line r"></div>
                             </div>
                             <!-- SIGN IN FORUM -->
@@ -118,10 +120,10 @@
                         			</div>                                  
                                     <div class="forgot">
                                         <span>Having Issues?</span>
-                                        <font color="blue"><a href="sign-up.html"><i>Forgot Password?</i></a></font><br>
-                                        <font color="blue"><a href="sign-up.html"><i>Sign Up for SERVE.</i></a></font>
+                                        <font color="black"><a href="sign-up.html"><i>Forgot Password</i></a></font><br>
+                                        <font color="black"><a href="#signUp" class="" data-toggle="modal" title=""><i>Sign Up for SERVE.</i></a></font>
                                     </div>
-                                    	<input class="span4" type="submit" name="sign in" value="Login">
+                                    	<input class="span4" type="submit" name="sign in" value="Sign In">
                                 </form><br>
                             </div>
                         </div>
@@ -129,7 +131,111 @@
                 </div>
             </div>
         </div>
-    </div>  
+    </div>
+    		
+		<!-- Contact -->
+		<section id="tenth" class="contact text-center">
+			<a class="anchor" id="row6"></a>
+			
+			<div class="wrapper bg-colored">	
+				<div class="container">
+					<div class="row">
+						<div class="span12">
+							<h2>Contact</h2>
+							<h3>We always love to hear form people.<br />
+							If you want to know our service or simply ‘Say Hello’ feel free to contact us.</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper">
+				<div class="container">
+					<div class="row">
+						<form class="contact-form" method="post" action="contactUs.php">
+							<div class="span4 offset2">
+								<label class="hidden-phone text-left" for="inputName">Name</label>
+								<div class="text-left">
+									<input class="span4" type="text" id="inputName" name="inputName" placeholder="Please insert your full name" required>
+								</div>
+							</div>
+							<div class="span4">
+								<label class="hidden-phone text-left" for="inputEmail">Email</label>
+								<div class="text-left">
+									<input class="span4" type="text" id="inputEmail" name="inputEmail" placeholder="Please insert your email" required>
+								</div>
+							</div>
+							<div class="span10 offset2">
+								<label class="hidden-phone text-left" for="inputSubject">Subject</label>
+								<div class="text-left">
+									<input class="span8" type="text" id="inputSubject" name="inputSubject" placeholder="Please insert the subject" required>
+								</div>
+							</div>
+							<div class="span10 offset2">
+								<label class="hidden-phone text-left" for="inputMessage">Message</label>
+								<div class="text-left">
+									<textarea class="span8" rows="8" id="inputMessage" name="inputMessage" placeholder="Please insert the subject" required></textarea>
+								</div>
+							</div>
+							<button type="submit" class=" span8 offset2 btn btn-quivee btn-large">Submit</button>
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="map">
+				<img src="images/map.jpg" alt="map">
+			</div>	
+		</section>			
+					
+		<!-- Footer -->
+		<footer >
+			<div class="wrapper bg-colored">
+				<div class="container text-center">
+					<div class="row">
+						<div class="span12">
+							<a href="#" class="logo-footer">DataDoc</a>
+							<ul class="unstyled inline footer-icons">
+								<li><a class="full-rounded" href="#" title="social"><i class="icon-twitter"></i></a></li>
+								<li><a class="full-rounded" href="#" title="social"><i class="icon-facebook"></i></a></li>
+								<li><a class="full-rounded" href="#" title="social"><i class="icon-linkedin"></i></a></li>
+								<li><a class="full-rounded" href="#" title="social"><i class="icon-dribbble"></i></a></li>
+								<li><a class="full-rounded" href="#" title="social"><i class="icon-pinterest"></i></a></li>
+								<li><a class="full-rounded" href="#" title="social"><i class="icon-github"></i></a></li>
+							</ul>
+							<p>&copy; 2013</p>
+						</div>
+					</div>
+				</div>
+			</div>		
+		</footer>	  
+    
+    				<div id="signUp" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  						<form method="post" action="createStudent.php" style="height:400px;">
+  						<div class="modal-header" style="background-color: black;">
+ 						   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+ 							   <h3 id="myModalLabel"><font color="white">Create a New Account!</font></h3>
+						</div>
+  						<div class="modal-body" style="text-align: center">
+ 							<input class="span5" type="text" placeholder="Username" name="username" required>
+ 							<input class="span5" type="password" placeholder="Password" name="password" required>
+ 							<input class="span5" type="password" placeholder="Confirm Password" name="ppassword" required>
+ 							<input class="span5" style="width:41%;" type="text" placeholder="First Name" name="firstname" required>
+ 							<input class="span5" style="width:42%;" type="text" placeholder="Last Name" name="lastname" required>
+ 							<input class="span5" type="text" placeholder="Email Address" name="email" required>
+ 							<input class="span5" style="width:43%;" type="number" placeholder="Age" name="age" required>
+							<select style="width:42%;height:42px;" id="gender" name="gender">
+                            	<option value="-">Choose Gender</option>
+                            	<option value="0">Male</option>
+                            	<option value="1">Female</option>
+                            	<option value="2">Other</option>
+                        	</select>                    		
+						</div>
+  						<div class="modal-footer" style="background-color: black;">
+    						<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    						<button type="submit" class="btn btn-inverse">Submit</button>
+  						</div>
+  						</form>
+					</div>
 
 		
 		         
@@ -145,7 +251,7 @@
 	    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
 	    <script type="text/javascript" src="js/jquery.easy-pie-chart.js"></script> 
 	    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script> 
-	    <script type="text/javascript" src="js/jpreLoader.js"></script>
+	   <!-- <script type="text/javascript" src="js/jpreLoader.js"></script>-->
 	    <script type="text/javascript" src="js/custom.js"></script>
 	    
 	    <?php
@@ -154,6 +260,11 @@
                 if (isset($_GET["error"]) and $_GET["error"] == "unauthorized")
                 {
                     echo '<script>alert("You are not currently logged in. Please log in or create an account...")</script>';
+                }
+                
+                if (isset($_GET["status"]) and $_GET["status"] == "newaccountcreated")
+                {
+                    echo '<script>alert("You have successfully created a new student account!")</script>';
                 }
             }
         ?>

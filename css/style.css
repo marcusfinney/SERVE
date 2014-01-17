@@ -2,7 +2,16 @@
 /* ======================================================================== */
 /* ! Buttons
 /* ======================================================================== */
- .btn {
+ 
+.mail {
+	text-align: left;
+}
+
+s:hover {
+	background-color:yellow;
+}
+
+.btn {
  	border: none;
 font-size: 16px;
  	display: inline-block;
@@ -13,6 +22,33 @@ font-size: 16px;
  	-webkit-box-shadow: none;
 box-shadow: none;
 }
+
+.custom-search-form{
+    margin-top:5px;
+}
+
+a:hover {
+	color: blue;
+	text-decoration:underline;
+	font-weight:bold;
+}
+
+a.quick:hover {
+	color: grey;
+	font-weight:bold;
+}
+
+
+a.delete:hover {
+	color: red;
+	font-weight:bold;
+}
+
+h4.delete:hover {
+	color: red;
+	font-weight:bold;
+}
+
 .btn:hover,
 .btn:active {
 text-decoration: none;
@@ -910,6 +946,14 @@ margin-right:auto;
 	margin-right: 10px;
 }
 
+.yellow {
+    color: yellow;
+}
+
+.popover {
+	max-width: 800px;
+	width: auto;
+}
 
 #sign_in2 .notes .text{	
 	text-align: center;
@@ -1260,3 +1304,47 @@ input[type="submit"]:hover{
         width: 100%;
     }
 }
+
+.divider{
+    position:absolute;
+    left:115%;
+    top:10%;
+    bottom:0%;
+    border-left:1px solid #ccc;
+}
+
+/*
+@import url('//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css');
+ HTML {
+    height: 100%;
+}
+BODY {
+    position: relative;
+    height: 100%;
+}
+HEADER {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 64px;
+    padding: 8px;
+    background-color: #ddd;
+}
+#side {
+    position: absolute;
+    top: 80px;
+    left: 0;
+    bottom: 0;
+    width: 20%;
+    background-color: #eee;
+    overflow: auto;
+}
+#content {
+    position: absolute;
+    top: 80px;
+    left: 20%;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+}*/
